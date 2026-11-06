@@ -1,0 +1,83 @@
+{
+  "v": 12,
+  "id": "cmw59uzs00wr3kj1ipra4sxei",
+  "name": "SauceDemo",
+  "folders": [],
+  "requests": [
+    {
+      "v": "17",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "body": "{\n    \"name\": \"Preslava\",\n    \"job\": \"QA Engineer\"\n}",
+        "contentType": "application/json"
+      },
+      "name": "POST - Create User",
+      "method": "POST",
+      "params": [],
+      "headers": [],
+      "endpoint": "https://reqres.in/api/users",
+      "responses": {},
+      "testScript": "",
+      "description": null,
+      "preRequestScript": "",
+      "requestVariables": [],
+      "id": "cmw5a12su2h77j21ivz12l596"
+    },
+    {
+      "v": "17",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "body": null,
+        "contentType": null
+      },
+      "name": "DELETE - Delete User",
+      "method": "DELETE",
+      "params": [],
+      "headers": [],
+      "endpoint": "https://reqres.in/api/users/2",
+      "responses": {},
+      "testScript": "",
+      "description": null,
+      "preRequestScript": "",
+      "requestVariables": [],
+      "id": "cmw5a2gnz2h7aj21i2fx868zo"
+    },
+    {
+      "v": "17",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "body": null,
+        "contentType": null
+      },
+      "name": "GET - Fetch Users List",
+      "method": "GET",
+      "params": [],
+      "headers": [],
+      "endpoint": "https://reqres.in/api/users?page=2",
+      "responses": {},
+      "testScript": "",
+      "description": null,
+      "preRequestScript": "",
+      "requestVariables": [],
+      "id": "cmw5a2xhn0wrgkj1ikrkfupaf"
+    }
+  ],
+  "auth": {
+    "authType": "inherit",
+    "authActive": true
+  },
+  "headers": [],
+  "variables": [],
+  "description": null,
+  "preRequestScript": "",
+  "testScript": ""
+}
