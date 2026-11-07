@@ -1,0 +1,62 @@
+{
+  "v": 12,
+  "id": "cmw5ass5m2h7ij21iv8pa4qyp",
+  "name": "Spotify API Testing",
+  "folders": [],
+  "requests": [
+    {
+      "v": "17",
+      "auth": {
+        "authType": "bearer",
+        "authActive": true
+      },
+      "body": {
+        "body": "{\n  \"name\": \"My QA Testing Playlist\",\n  \"description\": \"Playlist created during manual and API automated testing\",\n  \"public\": false\n}",
+        "contentType": "application/json"
+      },
+      "name": "Add Items to Playlist",
+      "method": "POST",
+      "params": [],
+      "headers": [],
+      "endpoint": "https://api.spotify.com/v1/users/",
+      "responses": {},
+      "testScript": "",
+      "description": null,
+      "preRequestScript": "",
+      "requestVariables": [],
+      "id": "cmw5b66xu2h7rj21i0urujihk"
+    },
+    {
+      "v": "17",
+      "auth": {
+        "token": "dummy_spotify_token_for_portfolio",
+        "authType": "bearer",
+        "authActive": true
+      },
+      "body": {
+        "body": null,
+        "contentType": null
+      },
+      "name": "GET - Search Item",
+      "method": "GET",
+      "params": [],
+      "headers": [],
+      "endpoint": "https://api.spotify.com/v1/search",
+      "responses": {},
+      "testScript": "",
+      "description": null,
+      "preRequestScript": "",
+      "requestVariables": [],
+      "id": "cmw6isk6b2jskj21i49da88sy"
+    }
+  ],
+  "auth": {
+    "authType": "inherit",
+    "authActive": true
+  },
+  "headers": [],
+  "variables": [],
+  "description": null,
+  "preRequestScript": "",
+  "testScript": ""
+}
